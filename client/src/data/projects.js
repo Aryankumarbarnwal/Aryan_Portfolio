@@ -26,7 +26,7 @@ export const projects = [
     tags: ['React', 'Node.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com/Aryankumarbarnwal/OneK-rt',
     live: 'https://one-k-rt-no-1-shopping-app.vercel.app/',
-    image: '../public/vcart logo.png',
+    image: '../vcart logo.png',
     images: [],
   },
   {
@@ -37,8 +37,8 @@ export const projects = [
     tags: ['React', 'Node.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com/Aryankumarbarnwal/SchoolProject.git',
     live: 'https://school-project-baox.vercel.app/',
-    image: '../public/SchoolImage2.png',
-    images: ['../public/Screenshot 2025-12-11 145515 - Copy.png', '../public/Screenshot 2025-12-11 145541.png', '../public/Screenshot 2025-12-11 145550.png', '../public/Screenshot 2025-12-11 145637.png.png'],
+    image: '../SchoolImage2.png',
+    images: ['../Screenshot 2025-12-11 145515 - Copy.png', '../Screenshot 2025-12-11 145541.png', '../Screenshot 2025-12-11 145550.png', '../Screenshot 2025-12-11 145637.png.png'],
   },
   {
     id: 'tsa-design-studio',
