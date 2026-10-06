@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #050a1f;
+  --color-navy: #0b1636;
+  --color-suit: #2b4c9b;
+  --color-sky: #8fb0f0;
+  --color-paper: #f2f0ea;
+  --color-brass: #e8b86b;
+  --font-display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-body: "DM Sans", "Segoe UI", sans-serif;
+}
+
+html { background: #050a1f; }
+body {
+  font-family: var(--font-body);
+  color: var(--color-paper);
+  background: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.02em; }
+
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+:focus-visible { outline: 2px solid var(--color-sky); outline-offset: 3px; }
+
+@keyframes swA { 0%, 100% { transform: rotateX(14deg); } 50% { transform: rotateX(-14deg); } }
+@keyframes swB { 0%, 100% { transform: rotateX(-14deg); } 50% { transform: rotateX(14deg); } }
+@keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes cue {
+  0% { transform: scaleY(0); transform-origin: top; }
+  50% { transform: scaleY(1); transform-origin: top; }
+  51% { transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+@keyframes pulse2 { 0%, 100% { opacity: .35; } 50% { opacity: .7; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
