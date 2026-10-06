@@ -13,7 +13,7 @@ export const profile = {
     'Fresh B.Tech CSE graduate ready to start a career in software development. I build with MERN and solve problems in Java, and I am happy to pick up whatever skills a team needs.',
 
   resume:
-    '../public/Aryan_Kumar_MERN.pdf',
+    '../Aryan_Kumar_MERN.pdf',
   email: 'aryanbarnwal01@gmail.com', // TODO
   github: 'https://github.com/Aryankumarbarnwal', // TODO
   linkedin: 'https://www.linkedin.com/in/aryan-barnwal-124781303', // TODO
